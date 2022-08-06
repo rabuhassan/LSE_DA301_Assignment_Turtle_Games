@@ -23,3 +23,15 @@ Based on the data analysis and the linear regression models built to assess rela
   * Loyalty Points and Spending Score = r-sqrd is 0.452
 
 ## 2. How groups within the customer base can be used to target specific market segments?
+Based on the Elbow and Silhoutte Methods, it was clear that 5 clusters are best for the dataset considered. That was also visually confirmed early on by using a scatterplot of the salary and spending_score data. The plot was already showing more or less 5 clear clusters. 
+
+Nonetheless, for good measure, 3 different cluster (k-values) were evaluated; 4, 5, and 6 clusters. Further, the all cluster values were evaluated, fitted, and ploted. This, further confirmed that 5 clusters is best for the dataset. 
+
+The 5 clusters consist of the following numbers: 
+* 0    356
+* 1    774
+* 2    330
+* 3    269
+* 4    271
+
+Clearly, cluster 1 is the largers with almost double any other cluster. Salaries within this cluster raged from 30k to 55k, while the spending score ranges from 40 to 60. 
