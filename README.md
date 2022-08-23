@@ -35,3 +35,18 @@ The 5 clusters consist of the following numbers:
 * 4    271
 
 Clearly, cluster 1 is the largers with almost double any other cluster. Salaries within this cluster raged from 30k to 55k, while the spending score ranges from 40 to 60. 
+
+
+## 3. Customer Sentiments with Reviews
+Each of the surveyed customers provided a review and summary. Both sets of feedback were analyzed independently through the use of Natural Language Processing in order to assess customer statisfaction and extract insights that could be meaningful for the team at Turtle, and can inform their decision making process, customer retention, and help in addressing any issues with regards to their products and customer experience. 
+
+* Initially, a two WordCloud plots were created for the Reviews and the Summaries in order to visually identify most used words and quickly assess the overall feedback. However, the amount of stopwords in use deemed this initial plots meaningless and further analysis needed to be done after the data had been further cleaned and filtered. 
+* Once the data was cleaned by removing all stopwords and alphanumeric characters, two new WordCloud plots were generated. At first glance, the plots revealed that within the top words used were many words considered to be positive such as "fun", "great", etc. The analysis was taken a step further through the creation of count plots, to give a more acturate view of the most used words. 
+
+Lastly, sentiment polarity was reviewed for both, the reviews and the summary feedback and histograms where created for both. 
+* Reviews: overall, the sentiment is neutral to positive, with the most reviews falling just over 0. 
+* Summary: overall, the most were neutral. However, the overall sentiment is positive leaning. 
+
+Examination of the top 20 positive and negative revealed that some of the negative comments may be easily corrected through follow-ups and communication with the customers. 
+
+
