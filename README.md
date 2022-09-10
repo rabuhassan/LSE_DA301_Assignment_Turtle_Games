@@ -49,4 +49,15 @@ Lastly, sentiment polarity was reviewed for both, the reviews and the summary fe
 
 Examination of the top 20 positive and negative revealed that some of the negative comments may be easily corrected through follow-ups and communication with the customers. 
 
+## 4 The Impact that Each Product has on Sales
+
+Based on the initial analysis conducted on the sales data, it appears that there exists correlation between EU_Sales and NA_Sales; meaning, the same products are equally as popular in both regions. 
+
+* Attention should especially be paid to product 107 and 254, which if data is correct, are generating the most sales value. However, they are clearly outliers based on the boxplots and the descriptive statistics. Therefore, it is highly recommended that a discussion with Turtle is around the data provided pertaining to these two products to ensure the data is sound.
+
+* All in all, North America sales are higher than Europeann Sales.
+
+* As for the platforms, products running on the Wii, the DS, the GB, and the NES are seemingly bringing in higher sales numbers. 
+
+* Most sale values in the EU fall under Pounds 2.5M. While in North American, most sale values fall under Pounds 4.0M. 
 
