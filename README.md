@@ -49,7 +49,7 @@ Lastly, sentiment polarity was reviewed for both, the reviews and the summary fe
 
 Examination of the top 20 positive and negative revealed that some of the negative comments may be easily corrected through follow-ups and communication with the customers. 
 
-## 4 The Impact that Each Product has on Sales
+## 4. The Impact that Each Product has on Sales
 
 Based on the initial analysis conducted on the sales data, it appears that there exists correlation between EU_Sales and NA_Sales; meaning, the same products are equally as popular in both regions. 
 
@@ -61,3 +61,16 @@ Based on the initial analysis conducted on the sales data, it appears that there
 
 * Most sale values in the EU fall under Pounds 2.5M. While in North American, most sale values fall under Pounds 4.0M. 
 
+## 5. Data Clean-up and Manipulation
+
+Based on the various tests and analysis conducted, including but not limited, to Shipiro Test, Skewness and Kurosis, the following observations were made:
+
+* The minimum global sales sum for a single product is 4.20. While the maximum global sales ssum for a single product is 67.85. 
+
+* The mean of sales sum in NA_Sales is Pounds 5.06M, in the EU_Sales is pounds 3.31M, and Globally is pounds 10.730343M.  
+
+* The Shipiro Testing for all sales produced a p-value is well below 0.05, suggesting the data is not normally distributed.
+
+* Where as the all sales variables are postively skewed as expected, and showa very high kurtosis value of over 15 suggesting data. This is likely to outliers where not removed on the premise that no discussion was conducted with the client to confirm that these values are in correct and should indeed be removed. 
+
+* Lastly, at this stage of the analysis, a correlation coefficient of 0.62 was calculated suggesting a moderate positive correlation and confirming what was witnessed during earlier analysis. Meaning many top selling games in EU are also top selling in NA. 
