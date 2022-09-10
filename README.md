@@ -74,3 +74,26 @@ Based on the various tests and analysis conducted, including but not limited, to
 * Where as the all sales variables are postively skewed as expected, and showa very high kurtosis value of over 15 suggesting data. This is likely to outliers where not removed on the premise that no discussion was conducted with the client to confirm that these values are in correct and should indeed be removed. 
 
 * Lastly, at this stage of the analysis, a correlation coefficient of 0.62 was calculated suggesting a moderate positive correlation and confirming what was witnessed during earlier analysis. Meaning many top selling games in EU are also top selling in NA. 
+
+
+## 6. Making Recommendations to the Business
+
+Four different models were build; however, the best fit and most useful is model4, which predicts Global Sales based on EU and North American Sales. The adjusted r-squared for model4 is over 0.96; which can be expected, given that Global Sales is the sum of North American Sales and European Sales. 
+
+Based on the model4, four different values were used as a test set to predict global sales. The following results where prediected and compared to the actual values presented in the data base. 
+
+* The first predicted value is 68.056548; the actual is 67.85. 
+* The second predicted value is 4.908353; the actual is 4.32.
+* The third predicted value is 7.202698; the actual is 6.12.
+* The fourth predicted value is 26.625558; the actual is 23.21.
+
+### Recommendations
+
+* Firstly, it is highly recommended that disccusions take place with Turtle before these results are confirmed. That is mainly due to the confirming the quality of the data and the presense of outliers. 
+
+* Secondly, with sales in North America almost double those in Europe, additional efforts should be put in place to increase sales in Europe. 
+
+* The most grossing products, if indeed the data is accurate, suggests that Sports products are high grossing; far more than any other products Turle is selling. Thus, Turtle may want to consider increasing sports product advertising. 
+
+* Lastly, it may also be good for Turtle to drop some products; namely those on the 2600, the GEN, the PSV, and the WiiU platforms. 
+
